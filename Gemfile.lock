@@ -59,6 +59,9 @@ GEM
     faker (2.18.0)
       i18n (>= 1.6, < 2)
     ffi (1.15.3)
+    ffi (1.15.3-java)
+    ffi (1.15.3-x64-mingw32)
+    ffi (1.15.3-x86-mingw32)
     globalid (0.5.2)
       activesupport (>= 5.0)
     i18n (1.8.10)
@@ -78,12 +81,22 @@ GEM
     mini_portile2 (2.6.1)
     minitest (5.14.4)
     msgpack (1.4.2)
+    msgpack (1.4.2-java)
     nio4r (2.5.8)
+    nio4r (2.5.8-java)
     nokogiri (1.12.3)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
+    nokogiri (1.12.3-java)
+      racc (~> 1.4)
+    nokogiri (1.12.3-x64-mingw32)
+      racc (~> 1.4)
+    nokogiri (1.12.3-x86-mingw32)
+      racc (~> 1.4)
     puma (3.12.6)
+    puma (3.12.6-java)
     racc (1.5.2)
+    racc (1.5.2-java)
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -147,14 +160,23 @@ GEM
     sqlite3 (1.4.2)
     thor (1.1.0)
     thread_safe (0.3.6)
+    thread_safe (0.3.6-java)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2022.1)
+      tzinfo (>= 1.0.0)
     websocket-driver (0.7.5)
+      websocket-extensions (>= 0.1.0)
+    websocket-driver (0.7.5-java)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
 
 PLATFORMS
+  java
   ruby
+  x64-mingw32
+  x86-mingw32
+  x86-mswin32
 
 DEPENDENCIES
   bootsnap (>= 1.1.0)
